@@ -11,6 +11,8 @@ body {
     min-height: 100vh;
 }
 
+
+
 .container {
     max-width: 700px;
     width: 100%;
@@ -41,6 +43,7 @@ body {
     background-color: white;
     border-radius: 10px;
 }
+
 
 
 
@@ -142,6 +145,9 @@ input{
 .card-stats p {
     font-size: 16px;
 }
+.card-stats strong{
+    font-size: 20px;
+}
 
 .card-socials {
     margin-top: 20px;
@@ -232,6 +238,47 @@ input{
         grid-template-columns: 1fr 1fr;
     }
 }
+
+
+
+/* DARK THEME */
+
+.dark-theme.dark{
+    background-color: #141d2f;
+}
+
+.top-header.dark{
+    color: white;
+}
+
+.search.dark{
+    background-color: #1e2a47;
+}
+
+#search.dark{
+    background-color: #1e2a47;
+    color: white;
+}
+
+.card.dark{
+    background-color: #1e2a47;
+    color: white;
+}
+
+.card-stats.dark{
+    background-color: #141d2f;
+}
+
+.card-basic div a.dark{
+    color: #1555e2;
+    text-decoration: none;
+}
+
+
+
+
+
+
 /* @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
  */
 
